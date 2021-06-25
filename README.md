@@ -50,7 +50,7 @@ Using a macro F1 score, a macro-average will calculate the F1 score independentl
 
 # Project Body
 
-To start, we had to pre-process the text data. To normalize the text, we lower-cased, removed digits and other special characters,, expand contractions, and  lemmatized words to noun base. There was a huge class imbalance within the data in regards to certain labels.
+To start, we had to pre-process the text data. To normalize the text, we lower-cased, removed digits and other special characters, expand contractions, and  lemmatized words to noun base. There was a huge class imbalance within the data in regards to certain labels.
 
 A few feature vectors were created using Count vectors, various levels of TF-IDF vectors, and then combination of Count vectors and TF-IDF vectors. 
 
