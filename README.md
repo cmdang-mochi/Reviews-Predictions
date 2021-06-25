@@ -2,7 +2,7 @@
 This project is to support Allcorrect Games with creating a machine learning model to help make predictions on game reviews in regards to localization.
 
 # Abstract 
-Through testing various models on the dataset, the model that had the best performance overall was Keras bert-for-tf2 model. Below is a print out of the classification table of metrics to show results of classification of labels:
+Through testing various models on the dataset, the model that had the best performance overall was `Keras bert-for-tf2 model`. Below is a print out of the classification table of metrics to show results of classification of labels:
 
 > ![2](https://user-images.githubusercontent.com/86335380/123465120-f4042100-d5aa-11eb-91d1-ac6e8e1d8a8a.PNG)
 
