@@ -3,7 +3,8 @@ This project is to support Allcorrect Games with creating a machine learning mod
 
 # Abstract 
 Through testing various models on the dataset, the model that had the best performance overall was Keras bert-for-tf2 model. Below is a print out of the classification table of metrics to show results of classification of labels:
-![2](https://user-images.githubusercontent.com/86335380/123465120-f4042100-d5aa-11eb-91d1-ac6e8e1d8a8a.PNG)
+
+> ![2](https://user-images.githubusercontent.com/86335380/123465120-f4042100-d5aa-11eb-91d1-ac6e8e1d8a8a.PNG)
 
 The python script application `main.py` incorporates the pre-trained `Keras bert-for-tf2 model` to make label predictions from a excel/csv file input by user. The output is the original excel file by user along with probabilites for the various labels. The required environment for the python script application can be found in `requirements.txt` and the pre-trained `Keras bert-for-tf2 model` is found in the releases secion. Please be aware that the python script should be updated on line 332 for the path file of the pre-trained model.
 
