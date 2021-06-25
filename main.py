@@ -6,7 +6,11 @@
 # `YL` : localization exists
 
 # Please set up the proper environment using the requirements.txt
-# To run please use the terminal and type the following:        python main.py
+# Please also download and unzip the pre-trained model from this github repo release 
+# (Due to size limitations, the pre-trained model is located in the release)
+# Update pathfile for the model load code in line 332 to where you have it on your directory after unzipping the file
+
+# To run please use the terminal and type the following:    python main.py
 
 import tkinter as tk
 from tkinter import ttk
@@ -325,7 +329,7 @@ class App(object):
         text_vector = bert_encode(df_temp['lemm_text'], tokenizer, max_len=max_len)
 
         # load the best model
-        best_model = keras.models.load_model('keras_bert_model_unzip/keras_bert_model', compile=True)
+        best_model = keras.models.load_model('keras_bert_model_unzip/keras_bert_model', compile=True) #Please udpate path file for where the pre-trained model is located
 
         # compute the predicted probabilities for text for each mark
         y_prob = best_model.predict(text_vector, verbose=1)
